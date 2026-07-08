@@ -1,0 +1,16 @@
+# Active Project State
+# 当前激活的项目状态
+
+project: "default"
+goal: ""
+status: "initialized"
+
+blockers: []
+
+active_tasks: []
+
+recent_decisions: []
+
+pending_questions: []
+
+resources: []

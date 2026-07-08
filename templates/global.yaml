@@ -1,0 +1,21 @@
+# Global Working State
+# 跨项目、跨会话的长期偏好和设置
+# 由 state-save skill 在会话结束时自动更新
+# 由 state-restore skill 在新会话中自动加载
+
+schema_version: 1
+updated_at: "INSTALL_DATE"
+
+preferences:
+  - "结论优先，不要选项表"
+  - "不凭空声称完成，留可验证证据"
+  - "先读历史/检索记忆再做事"
+  - "极简执行，不绕路不反复确认"
+
+recurring_corrections: []
+
+important_paths:
+  hermes_home: "~/.hermes"
+  state_dir: "~/.hermes/state"
+
+vim_modeline: ""

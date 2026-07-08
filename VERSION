@@ -1,0 +1,20 @@
+# Hermes Persistent Working State — Version Marker
+# 请勿手动编辑。修改需要新的 version marker。
+
+runtime_version: 1.0
+name: "Hermes Persistent Working State"
+released_at: "2026-07-08"
+
+schema:
+  global: 1.0
+  project: 1.0
+  task: 1.0
+
+validated:
+  - session_recovery          # Test 1
+  - project_isolation         # Test 2
+  - snapshot_lifecycle        # Test 2.5 / Cold Start Restore
+  - cold_start_restore        # Test 1.5
+  - model_independent_recovery # Test 3
+
+milestone_event: "persistent_working_state_v1_released"

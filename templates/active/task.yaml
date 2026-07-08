@@ -1,0 +1,15 @@
+# Task Working State
+# 当前正在做的事情
+
+schema_version: 1
+updated_at: "INSTALL_DATE"
+
+current_task: "Initial setup — verify Working State recovery"
+current_blocker: null
+
+completed_this_session: []
+
+next_actions:
+  - "Review project state and continue"
+
+open_questions: []
